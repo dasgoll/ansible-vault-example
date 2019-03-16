@@ -1,9 +1,9 @@
+### We want to write author name 'Jameel Jamal' to /tmp/este
+
 echo elpasswordgrande > password_file
 
-We want to write author name 'Jameel Jamal' to /tmp/este
 
-
-ansible-vault encrypt_string --vault-id password_file 'authorName' --name 'string_name'
+ansible-vault encrypt_string --vault-id password_file 'Jameel Jamal' --name 'authorName'
 
 
 
