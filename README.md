@@ -20,9 +20,11 @@ Obviously, you just grab the 2nd field, and can delete the file once you're adde
 
  ansible-vault encrypt vault.yml
  # use password 'elpassgrande'
+ OR  echo elpasswordgrande > password_file
 
- ansible-playbook -i localhost, -c local site.yml --ask-vault-pass
-
+ansible-playbook -i localhost, -c local site.yml --ask-vault-pass
+OR
+ansible-playbook -i localhost, -c local site.yml  --vault-password-file password_file
 
  su - khaled
 
