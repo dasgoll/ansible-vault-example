@@ -8,3 +8,8 @@ ansible-vault encrypt_string --vault-id password_file 'Jameel Jamal' --name 'aut
 
 
 ansible-playbook -i localhost, -c local site2.yml --ask-vault-pass
+OR to not prompt for pass
+ansible-playbook -i localhost, -c local site2.yml --vault-password-file password_file
+
+cat /tmp/este
+
