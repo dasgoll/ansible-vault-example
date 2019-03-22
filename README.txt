@@ -17,6 +17,7 @@ Obviously, you just grab the 2nd field, and can delete the file once you're adde
 
 
  
+ ### N.B: include_vars can include yaml and json files
 
  ansible-vault encrypt vault.yml
  # use password 'elpassgrande'
